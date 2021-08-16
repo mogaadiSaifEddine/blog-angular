@@ -1,0 +1,9 @@
+<div ngClass="{'list-group-item-success' : loveIts>=0  , 'list-group-item-danger' : loveIts<0 }">
+
+<p >{{title}}</p>
+<p>{{created_at}}</p>
+<p>{{contenu}}</p>
+<button class="btn btn-danger" (click)='loveit()'>like it </button>
+<h3>{{loveIts}}</h3>
+<button class ='btn btn-succes' (click) ='dislikeit()'> dislike it </button>
+</div>
